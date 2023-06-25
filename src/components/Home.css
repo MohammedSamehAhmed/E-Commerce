@@ -1,0 +1,35 @@
+.numbers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dc3545;
+    height: 20px;
+    width: 20px;
+    color: white;
+    -o-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    top: -3px;
+    right: -6px;
+}
+@media (max-width:991px){
+    .navnav {
+        position: fixed;
+        top: 43px;
+        left: 0;
+        z-index: 3;
+        
+        width: 100%;
+        min-height: 220px;
+        align-items: center;
+        background-color: #f8f9fa  !important;
+
+        border-radius: 0 0 6px 6px;
+        -webkit-border-radius: 0 0 6px 6px;
+        -moz-border-radius: 0 0 6px 6px;
+        -ms-border-radius: 0 0 6px 6px;
+        -o-border-radius: 0 0 6px 6px;
+}
+}
